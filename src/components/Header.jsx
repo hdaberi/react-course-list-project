@@ -2,7 +2,7 @@ const courseListStatus = ["All", "Active", "Upcoming", "Completed"];
 
 function Header() {
   return (
-    <div>
+    <div className="header">
       <h1 className="title">My CourseList Project</h1>
       <div className="course-status">
         <ul>
