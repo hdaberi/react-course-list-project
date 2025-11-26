@@ -10,18 +10,33 @@ h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-
+ul li {
+  list-style: none;
+}
 .container {
   max-width: 50rem;
   margin: 0 auto;
 }
 
-.course-status {
+.course-status ul {
   display: flex;
-  justify-content: space-between;
-  margin: 2rem;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
   color: #64748b;
   font-weight: 300;
+  padding: 0.9rem;
+  border-radius: 0.375rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  border: 1px solid #e2e8f0;
+  li.active {
+    font-weight: 700;
+    color: #15803d;
+    border-bottom: 2px solid #15803d;
+    
+    scale: 1.1;
+  }
 }
 
 .course-status .active {

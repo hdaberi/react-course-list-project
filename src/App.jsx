@@ -1,4 +1,5 @@
 import CourseList from "./components/CourseLists";
+import Header from "./components/Header";
 import "./App.css";
 
 
@@ -6,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1 className="title">My CourseList Project</h1>
+      <Header />
       <CourseList />
     </div>
   );
